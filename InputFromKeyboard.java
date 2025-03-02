@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class InputFromKeyboard {
-	public static void main(String args[]){
+	public static void main(String args[]) {
 		Scanner keyboard = new Scanner(System.in);
 		
 		System.out.println("What's your name?");
@@ -13,5 +13,6 @@ public class InputFromKeyboard {
 		
 		System.out.println("Mrs/Ms. " + strName + ", " + iAge + " years old. "
 				+ "Your height is " + dHeight + ".");
+		keyboard.close();
 	}
 }
